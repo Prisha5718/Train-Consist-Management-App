@@ -9,7 +9,6 @@ public class UC17_ArraysSortBogieTypes {
 
         System.out.println("=== UC17: Arrays.sort() for Bogie Types ===");
 
-        // Array of bogie type names
         String[] bogieTypes = {
                 "Sleeper",
                 "Cargo",
@@ -18,10 +17,8 @@ public class UC17_ArraysSortBogieTypes {
                 "General"
         };
 
-        // Sort alphabetically
         Arrays.sort(bogieTypes);
 
-        // Display sorted result
         System.out.println("Sorted Bogie Types:");
         System.out.println(Arrays.toString(bogieTypes));
 
